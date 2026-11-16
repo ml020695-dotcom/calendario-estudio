@@ -1,6 +1,7 @@
 <?php
 require __DIR__ . '/db.php';
 
+header('access-control-Allow-Origin: *');
 header('content-type: application/json; charset=utf-8');
 
 $pdo = conectar();
