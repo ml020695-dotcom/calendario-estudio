@@ -7,6 +7,16 @@
 <body>
     <h1>Mis tareas</h1>
 
+    <form id="form-tareas">
+        <input type="text" id="titulo" placeholder="Titulo de la tarea" required>
+        <input type="date" id="fecha" required>
+        <input type="text" id="descripcion" placeholder="descripcion (opcional)">
+        <button type="submit">Añadir tarea</button>
+    </form>
+
+    <p id="mensaje"></p>
+    
+
     <ul id="lista-tareas"></ul>
 
     <script src="app.js"></script>
